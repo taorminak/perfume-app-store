@@ -4,6 +4,12 @@
 
 This task involves creating a simplified web shop based on a provided design reference. The implementation should closely resemble the design, aiming for fidelity without needing to be pixel-perfect. The technologies allowed for implementation are Angular or React.
 
+## Tech Stack
+
+- React
+- Redux
+- Vite
+
 ## Task Description
 
 1. **Loading Products:**
