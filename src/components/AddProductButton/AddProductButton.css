@@ -1,0 +1,22 @@
+.product__button {
+  background-color: var(--accent-color);
+  color: var(--text-on-primary-color);
+  border: none;
+  width: 110px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 9px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.product__button:hover {
+  color: var(--accent-color);
+  background-color: var(--text-on-primary-color);
+}
+
+.product__button-icon {
+  margin-right: 5px;
+  font-size: 8px;
+}

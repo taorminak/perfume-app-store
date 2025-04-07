@@ -1,0 +1,34 @@
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30px;
+  border: 1px solid var(--background-color);
+  padding: 1px 0px 1px 4px;
+}
+
+.quantity-control__button {
+  background-color: transparent;
+  border: 1px solid var(--background-color);
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.quantity-control__button:hover {
+  background-color: var(--background-color);
+}
+
+.quantity-control__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quantity-control__quantity {
+  font-size: 16px;
+}

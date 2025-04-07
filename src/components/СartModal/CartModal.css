@@ -1,0 +1,135 @@
+.cart-modal {
+  position: fixed;
+  top: 45px;
+  right: 15px;
+  width: 310px;
+  color: var(--text-color);
+  display: none;
+  z-index: 11;
+}
+
+.cart-modal.open {
+  display: block;
+}
+
+.cart-modal__content {
+  background-color: var(--background-secondary-color);
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--shadow-color);
+  padding: 15px;
+  max-height: 400px;
+  width: 310px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.cart__item-container {
+  position: relative;
+}
+
+.cart-modal__content::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent white transparent;
+}
+
+.cart__item {
+  padding: 10px 3px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  width: 100%;
+  font-size: 12px;
+  border-bottom: 1px solid var(--background-color);
+}
+
+.cart__item-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 8px;
+}
+
+.cart__item-img {
+  height: 4em;
+  object-fit: contain;
+  box-shadow: 0 2px 2px var(--shadow-color);
+  margin-right: 15px;
+  border-radius: 25px;
+}
+
+.cart__item-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-family: 8px;
+}
+
+.cart__item-name {
+  text-transform: uppercase;
+}
+
+.cart__item-price {
+  font-size: 12px;
+  padding-right: 5px;
+  color: var(--primary-color);
+}
+
+.cart__item-trash-icon {
+  color: var(--icon-secondary-color);
+  border: none;
+  margin: 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart__item-trash-icon:hover {
+  color: #f28e8e;
+}
+
+.cart__checkout-button {
+  background-color: var(--accent-color);
+  color: var(--text-on-primary-color);
+  border: none;
+  width: 100%;
+  padding: 8px;
+  font-size: 9px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.cart__checkout-button:hover {
+  color: var(--accent-color);
+  background-color: var(--text-on-primary-color);
+}
+
+.cart__total {
+  width: 100%;
+  text-align: right;
+  font-size: 11px;
+  color: var(--primary-color);
+  padding-bottom: 5px;
+}

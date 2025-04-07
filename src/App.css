@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+Outlet {
+  padding: 1.25em;
+}
+
+.main-section {
+  background-color: var(--background-color);
+  max-height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  color: var(--text-on-primary-color);
+  cursor: default;
+}

@@ -1,0 +1,39 @@
+.header {
+  background-color: var(--primary-color);
+  color: var(--text-on-primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625em 2.5em;
+  height: 1em;
+}
+
+.logo {
+  object-fit: contain;
+  height: 0.8em;
+  cursor: pointer;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.8em;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-style: bold;
+}
+
+.cart__item-container {
+  position: relative;
+}
+
+.cart__item-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: var(--secondary-color);
+  color: var(--text-on-primary-color);
+  border-radius: 50%;
+  padding: 1px 4px;
+  font-size: 8px;
+}

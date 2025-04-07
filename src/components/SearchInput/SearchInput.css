@@ -1,0 +1,126 @@
+.search__info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: auto;
+  font-family: var(--main-font-family);
+}
+
+.search__form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--background-secondary-color);
+  padding: 5px 0;
+  margin: auto;
+  margin-top: 10px;
+  color: var(--icon-secondary-color);
+  box-shadow: 0 2px 4px var(--shadow-color);
+  border-radius: 2px;
+}
+
+.search__button {
+  border: none;
+  padding: 0 5px;
+  background-color: transparent;
+}
+
+.search__input {
+  width: 100%;
+  height: 1.25em;
+  padding: 2.5px;
+  border: none;
+  outline: none;
+  margin-left: 2.5px;
+  font-size: 9px;
+  color: var(--text-color);
+  position: relative;
+  font-size: 14px;
+}
+
+.search__input:focus {
+  border: none;
+}
+
+.search__separator {
+  width: 1px;
+  height: 1em;
+  background-color: var(--text-secondary-color);
+}
+
+.search__icon {
+  width: var(--icon-size);
+  color: var(--icon-secondary-color);
+  cursor: pointer;
+}
+
+.search__results {
+  position: absolute;
+  top: calc(100% + 3px);
+  max-height: 200px;
+  width: 100%;
+  padding: 5px 0;
+  overflow-y: auto;
+  background-color: var(--background-secondary-color);
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  z-index: 10;
+}
+
+.search__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search__item {
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 32px;
+  font-size: 12px;
+}
+
+.search__item:hover {
+  background-color: var(--background-color);
+}
+
+.no-results {
+  padding: 5px;
+  color: var(--text-color);
+}
+
+.search__item-img {
+  height: 3em;
+  object-fit: cover;
+  box-shadow: 0 2px 2px var(--shadow-color);
+  margin-right: 4px;
+}
+
+.search__item-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.search__item-name {
+  text-transform: uppercase;
+}
+
+.search__item-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  font-size: 10px;
+}
+
+.search__item-price {
+  font-size: 12px;
+  padding-right: 5px;
+}

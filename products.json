@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": "product-1",
+      "brand": "Hugo Boss",
+      "name": "BOSS Bottled Night eau de toilette 100 mL ",
+      "description": "A 100ml bottle of BOSS Bottled Night eau de toilette. BOSS Bottled Night is destined to become the secret weapon in the BOSS mans armory of seduction, instilling him with the same compelling presence that underpins his success by day. A unique composition between elegance and seduction. An intense and spicy scent with a purposeful, edgy, masculine character. Woods are key in the scent: BOSS Bottled Night introduces a scent replica of a rich and exotic new wood, louro amarelo. Treat your fragrance rotation to this captivating scent. Ingredients: Alcohol Denat, Water, Fragrance, Ethylhexyl Methoxycinnamate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, Propylene Glycol, Bht, Methylparaben, Limonene, Alpha-Isomethyl Ionone, Linalool, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde, Butylphenyl Methylpropional, Citral, Geraniol, Citronellol, Hydroxycitronellal, Eugenol, Ext. Violet 2 (CI 60730), Red 33 (CI 17200), Yellow 5 (CI 19140)",
+      "imageUrl": "/src/resources/images/boss-men.jpg",
+      "quantity": 10,
+      "price": 96.99
+    },
+    {
+      "id": "product-2",
+      "brand": "Hugo Boss",
+      "name": "Hugo Boss Femme Eau De Parfum 75m",
+      "description": "Step into a sparkling, chic fantasy with Boss Femme, a luminous womens fragrance. This dreamy concoction is a blend of floral and citrus accords perfect for the modern, sophisticated woman on the go. Top notes of sweet blackcurrant, tangerine and white freesia start the perfume with a light and cheerful atmosphere, while heart notes of Bulgarian rose, jasmine and lily add a floral bouquet that’s an unparalleled force. Base notes of warm amber, soft apricot and lemon tree round out the scent for a dazzling, feminine fragrance thats romantic and intensely appealing.",
+      "imageUrl": "/src/resources/images/boss-women.jpg",
+      "quantity": 7,
+      "price": 73.98
+    },
+    {
+      "id": "product-3",
+      "brand": "Hugo Boss",
+      "name": "BOSS The Scent eau de toilette 100ml",
+      "description": "A 100ml bottle of BOSS The Scent eau de toilette. Exquisite notes of ginger, exotic maninka and leather unfold in BOSS The Scent over time, awakening and seducing the senses. Spritz it on for an irresistible fragrance that lasts the day. Ingredients: Alcohol Denat, Water, Fragrance, Ethylhexyl Methoxycinnamate, Diethylamino Hydroxybenzoyl Hexyl Benzoate, BHT, Linalool, Limonene, Hydroxycitronellal, Coumarin, Citronellol, Citral, Benzyl Alcohol, Geraniol, Yellow 6 (CI 15985), Yellow 5 (CI 19140), Ext. Violet 2 (CI 60730)",
+      "imageUrl": "/src/resources/images/boss-unisex.jpg",
+      "quantity": 5,
+      "price": 104.99
+    },
+    {
+      "id": "product-4",
+      "brand": "Armani",
+      "name": "Giorgio Armani Code Eau De Toilette For Men 125ml",
+      "description": "This modern and sophisticated fragrance for men combines an irresistible citron cocktail of Bergamot scent and lemon with soft notes of Olive Tree Blossom, warmed with Guaiac Wood Essential and Tonka Bean.",
+      "imageUrl": "/src/resources/images/armani-men.webp",
+      "quantity": 10,
+      "price": 106.99
+    },
+    {
+      "id": "product-5",
+      "brand": "Armani",
+      "name": "Giorgio Armani Code Absolu EDP 75ml Perfume For Women",
+      "description": "Armani Code Absolu Femme by Giorgio Armani is a Oriental Floral fragrance for women. This is a new fragrance. Armani Code Absolu Femme was launched in 2019. Top notes are ginger, neroli and mandarin orange; middle notes are jasmine, orange blossom and tuberose; base notes are tonka bean, vanilla and sandalwood.",
+      "imageUrl": "/src/resources/images/armani-women.jpg",
+      "quantity": 3,
+      "price": 69.99
+    },
+    {
+      "id": "product-6",
+      "brand": "Armani",
+      "name": "Arm Ap Cuir Zerzura 100Ml 20",
+      "description": "Released in 2020, this brand-new eau de parfum from Armani Prive is defined by its bouquet of floral and powdery tones. Unfurling into a rich base, the Cuir Zerzura perfectly balances citrusy notes of mandarin oil with leather accord and vanilla bourbon extract to present a fragrance for both men and women.",
+      "imageUrl": "/src/resources/images/armani-unisex.jpg",
+      "quantity": 7,
+      "price": 109.99
+    },
+    {
+      "id": "product-7",
+      "brand": "Guess",
+      "name": "Eau De Toilette Spray 2.5 oz",
+      "description": "Start every day on a high note and invigorate your senses when you wear Guess Man, released in 2006 by the house of Guess. This eau de toilette spray for men gives you spring in your step, with an upbeat, revitalizing composition of scent notes. A blast of wormwood provides an enticing opening that quickly cascades into a heart crafted from spicy nutmeg and white pepper. A base medley of suede and Peru balsam lends the scent a definitively masculine vibe. ",
+      "imageUrl": "/src/resources/images/guess-men.jpg",
+      "quantity": 12,
+      "price": 28.99
+    },
+    {
+      "id": "product-8",
+      "brand": "Guess",
+      "name": "Guess Eau de Parfum Spray for Women",
+      "description": "Sweet and sexy, this fragrance from GUESS gives the GUESS girl another opportunity to flaunt her feminine style. A juicy tangerine and green apple note introduces an absolutely feminine heart of dewy freesia, pink peony and delicate muguet. Accents of peach and red fruit vibrate through the blend. Absolutely chic and radiant, the drydown of cedar wood and amber provide texture while soft skin-musk enhances depth and sensuality.",
+      "imageUrl": "/src/resources/images/guess-women.jpg",
+      "quantity": 56,
+      "price": 22.67
+    },
+    {
+      "id": "product-9",
+      "brand": "Guess",
+      "name": "Guess Seductive by Guess",
+      "description": "Guess initiated its fragrance line collection in the year 2005.The company introduced its first pair of fragrances by the name of Guess for women and Guess for men. The company further increased its perfume line by adding new perfumes Guess Gold and Guess Suede for men and women respectively.",
+      "imageUrl": "/src/resources/images/guess-unisex.jpg",
+      "quantity": 32,
+      "price": 21.87
+    },
+    {
+      "id": "product-10",
+      "brand": "JOOP",
+      "name": "Joop Eau De Toilette Spray For Men",
+      "description": "Launched by the design house of Joop! In 1989, Joop! Is classified as a refined, oriental, woody fragrance.",
+      "imageUrl": "/src/resources/images/joop-men.jpg",
+      "quantity": 42,
+      "price": 32.27
+    },
+    {
+      "id": "product-11",
+      "brand": "JOOP",
+      "name": "Joop Eau De Toilette Spray For Women",
+      "description": "Affirm your strength and power each morning with Joop! Femme, a women's eau de toilette spray. Released in 1987 by Joop!, this intense scent blends spicy and woody notes for a thrilling, uncompromising result. The fragrance awakens your inner self with shimmering top notes of lemon and coriander, while orange blossom and rose middle notes communicate classic femininity. Deep, decidedly earthy sandalwood base notes create a foundation that hints at your unapologetic confidence and certainty of being.",
+      "imageUrl": "/src/resources/images/joop-women.jpg",
+      "quantity": 53,
+      "price": 41.99
+    },
+    {
+      "id": "product-12",
+      "brand": "JOOP",
+      "name": "Joop Homme 125ml EDP",
+      "description": "This is a new fragrance. Joop! Homme Eau de Parfum was launched in 2021. Joop! with a new Eau de Parfum, Homme is pushing the boundaries of olfactory addiction. Dark and decidedly mysterious, the fragrance for men reveals a refined contrast. The tangy freshness of cardamom is warmed up by a luscious blend of roasted hazelnut, vanilla and tonka bean.",
+      "imageUrl": "/src/resources/images/joop-unisex.webp",
+      "quantity": 34,
+      "price": 79.99
+    }
+  ]
+}

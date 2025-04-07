@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #0081c2;
+  --secondary-color: #2d2d2d;
+  --accent-color: #61b6e0;
+
+  --background-color: #ebebeb;
+  --background-secondary-color: #ffffff;
+
+  --text-color: #3a4752;
+  --text-secondary-color: #c9c9cb;
+  --text-on-primary-color: #fefefe;
+  --accent-text-color: #787495;
+
+  --shadow-color: var(--text-secondary-color);
+
+  --main-font-family: 'Gupter', serif;
+
+  --icon-size: 0.8em;
+  --icon-color: var(--text-on-primary-color);
+  --icon-secondary-color: var(--text-secondary-color);
+}
